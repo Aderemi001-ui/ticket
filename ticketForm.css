@@ -228,7 +228,7 @@ width: 3800px;
     background-size:500px;
     background-repeat: no-repeat;
     background-position: center;
-   overflow: hidden;
+   overflow-y: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,5 +283,13 @@ width: 3800px;
 }
 #p2{
    margin-right: 70px;
+}
+#squiggly{
+     z-index: 7;
+    position: absolute;
+    
+    margin-top: -300px;
+    width: 100px;
+    margin-left: 15px;
 }
 }
