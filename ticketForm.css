@@ -130,7 +130,7 @@ margin-left: -450px;
 }
 @media(max-width:700px){
     body{
-    background-image: url('background-mobile.png' )!important;
+    background-image: url('background-tablet.png' )!important;
     background-size:cover;
     background-repeat: no-repeat;
    overflow: hidden;
@@ -220,5 +220,68 @@ width: 3800px;
     margin-bottom: 100px;
     opacity: 0.7;
     cursor:pointer;
+}
+}
+@media(max-width:450px){
+ body{
+    background-image: url('background-mobile.png' )!important;
+    background-size:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+   overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+   #top{
+margin-left: -1000px;
+}
+#toph1{
+    font-size: 20px;
+  margin-left: -240px;
+  margin-top: 15px;
+  width: 300px;
+
+}
+.card{
+    display:flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+gap: 10px;
+margin-left: -230px;
+}
+.card{
+    display:flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+gap: 10px;
+
+margin-left: -260px;
+}
+#lines{
+    z-index: 0;
+    position: absolute;
+    margin-left: -400px;
+}
+#lowribbon{
+   z-index: 2;
+    position:absolute;
+    margin-top: 320px;
+height: 200px;
+width: 3800px;
+ 
+
+}
+#p{
+    margin-left: -490px;
+}
+#p2{
+   margin-right: 70px;
 }
 }
