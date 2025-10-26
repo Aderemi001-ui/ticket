@@ -1,0 +1,202 @@
+body{
+    background-image: url('background-desktop.png' )!important;
+   overflow: hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+#circle1{
+     z-index: 2;
+    position: absolute;
+    margin-left: 1000px;
+    width: 150px;
+    margin-top: 60px;
+}
+#circle2{
+     z-index: 5;
+    position: absolute;
+    margin-left: 70px;
+    width: 200px;
+    margin-top: -350px;
+}
+#lines{
+    z-index: 0;
+    position: absolute;
+    margin-left: -100px;
+}
+#lowribbon{
+    z-index: 1;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: -2000px;
+    width: 4380px;
+    height: 300px;
+}
+#squiggly{
+     z-index: 7;
+    position: absolute;
+    margin-left: 1140px;
+    margin-top: -250px;
+    width: 200px;
+}
+.container{
+    width: 1020px;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+#top{
+    margin-left: 400px;
+}
+#toph1{
+    font-size: 45px;
+  margin-left: 395px;
+}
+#secure{
+    margin-left: 530px;
+    width: 350px;
+}
+#ticket{
+    z-index: 8;
+    position: absolute;
+    margin-top: 50px;
+    background-color:  rgb(61, 61, 61);
+    opacity: 0.5;
+    margin-left: 480px;
+   width: 440px;
+   height: 180px;
+   border-radius: 10px;
+   margin-top: 140px;
+}
+.ticketDiv{
+    z-index: 9;
+    margin-top: 260px;
+    margin-left: 500px;
+    position: absolute;
+
+}
+#datelocation{
+    margin-top: -5px;
+}
+#ticketavatar{
+    margin-top: 20px;
+}
+#avatarcontainer{
+    display: flex;
+      margin-top: -5px;
+      gap: 20px; 
+}
+#credentials{
+    margin-top: -5px;
+}
+#avatar{
+    border-radius: 10px;
+}
+@media(max-width:700px){
+    body{
+    background-image: url('background-desktop.png' )!important;
+   overflow-y: hidden !important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+   max-width: 100vh;
+    height: 100vh;
+}
+.container{
+    width: 1000px;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+#top{
+margin-left: -500px;
+}
+#toph1{
+    font-size: 25px;
+  margin-left: -10px;
+  width: 500px;
+
+}
+#secure{
+    margin-left: 60px;
+    width: 350px;
+}
+#ticket{
+    z-index: 8;
+    position: absolute;
+   
+    background-color:  rgb(61, 61, 61);
+    opacity: 0.5;
+    margin-left: 20px;
+   width: 440px;
+   height: 180px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.ticketDiv{
+    z-index: 9;
+    margin-top: 5px;
+    margin-left: 30px;
+    position: absolute;
+}
+#circle1{
+     z-index: 2;
+    position: absolute;
+    margin-left: 430px;
+    width: 150px;
+    margin-top: 180px;
+}
+#circle2{
+     z-index: 5;
+    position: absolute;
+    margin-left: 70px;
+    width: 130px;
+    margin-top: -320px;
+}
+#lines{
+    z-index: 0;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -100px;
+    width: 700px;
+}
+#lowribbon{
+    z-index: 1;
+    position: absolute;
+    margin-top: 210px;
+    
+}
+#squiggly{
+     z-index: 7;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: -300px;
+    width: 100px;
+}
+.container{
+    width: 1020px;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+}

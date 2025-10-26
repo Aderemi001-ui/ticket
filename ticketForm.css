@@ -1,0 +1,225 @@
+body{
+    background-image: url('background-desktop.png' )!important;
+   
+    background-size:cover;
+    background-repeat: no-repeat;
+   overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+    color: white;
+    text-align: center;
+    height: 110vh;
+}
+#toph1{
+    font-size:40px;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+#circle1{
+     z-index: 2;
+    position: absolute;
+    margin-left: 600px;
+    width: 150px;
+    margin-top: 60px;
+}
+#circle2{
+     z-index: 5;
+    position: absolute;
+    margin-left: -270px;
+    width: 200px;
+    margin-top: -300px;
+}
+.container{
+    width: 820px;
+    height: 100vh;
+    z-index: 10;
+   
+}
+#lines{
+    z-index: 0;
+    position: absolute;
+    margin-left: -400px;
+}
+#lowribbon{
+    z-index: 1;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: -2000px;
+    width: 4380px;
+    height: 400px;
+}
+#squiggly{
+     z-index: 7;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -250px;
+    width: 200px;
+}
+#box{
+    width:340px;
+    height: 80px;
+    background-color: rgb(94, 94, 95);
+    opacity: 0.6;
+   border-radius: 10px;
+    color:white ;
+    padding-top: 10px;
+    border: 2px dashed white;
+    cursor: pointer;
+}
+.card{
+    display:flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+gap: 10px;
+margin-left: 250px;
+}
+#namediv{
+     width:340px;
+    height: 30px;
+    background-color: rgb(94, 94, 95);
+    opacity: 0.6;
+     border-radius: 10px;
+     color:white ;
+     cursor: text;
+}
+#maildiv{
+     width:340px;
+    height:30px;
+     background-color: rgb(94, 94, 95);
+    opacity: 0.6;
+     border-radius: 10px;
+      color:white ;
+       cursor: text;
+}
+#usernamediv{
+     width:340px;
+    height: 30px;
+   background-color: rgb(94, 94, 95);
+    opacity: 0.6;
+     border-radius: 10px;
+      color:white ;
+       cursor: text;
+}
+#submit{
+    background-color: #e16151ff;
+    width: 340px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    opacity: 0.7;
+    cursor:pointer;
+}
+#upload{
+    width: 45px;
+    height: 45px;
+    opacity: 1;
+    background-color: rgb(61, 61, 61) ;
+    border-radius: 15px;
+    padding-top: 3px;
+    margin-left: 145px;
+ 
+}
+.error{
+color: red;
+font-size: 8px;
+margin-left: -450px;
+}
+@media(max-width:700px){
+    body{
+    background-image: url('background-mobile.png' )!important;
+   
+    background-size:cover;
+    background-repeat: no-repeat;
+   overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+    color: white;
+    text-align: center;
+    height: 110vh;
+}
+    #top{
+margin-left: -900px;
+}
+#toph1{
+    font-size: 35px;
+  margin-left: -300px;
+  width: 500px;
+
+}
+.card{
+    display:flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+gap: 10px;
+margin-left: -230px;
+}
+#lines{
+    z-index: 0;
+    position: absolute;
+    margin-left: -400px;
+}
+#lowribbon{
+   z-index: 2;
+    position:absolute;
+    margin-top: 200px;
+height: 200px;
+width: 3800px;
+ 
+
+}
+#p{
+    margin-left: -490px;
+}
+#p2{
+    margin-left: -920px;
+}
+#upload{
+    width: 45px;
+    height: 45px;
+    opacity: 1;
+    background-color: rgb(61, 61, 61) ;
+    border-radius: 15px;
+    padding-top: 3px;
+    margin-right: 105px;
+ 
+}
+#circle1{
+     z-index: 2;
+    position: absolute;
+    margin-left: 60px;
+    width: 80px;
+    margin-top: 60px;
+}
+#circle2{
+     z-index: 5;
+    position: absolute;
+    margin-left: -270px;
+    width: 100px;
+    margin-top: -350px;
+}
+#squiggly{
+     z-index: 7;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -300px;
+    width: 100px;
+    margin-left: 70px;
+}
+#submit{
+    background-color: #e16151ff;
+    width: 340px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    opacity: 0.7;
+    cursor:pointer;
+}
+}
